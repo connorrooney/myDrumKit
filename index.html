@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <title>MyDrumKit</title>
+</head>
+<body>
+    <div class=content>
+
+        <div class=top>
+            <h1>MyDrumKit</h1>
+            <h3>Press the corresponding key or click to play.</h3>
+        </div>
+
+        <div class=main>
+            <button id="boomB" onClick="boomP()">A - Boom</button>
+            <button id="clapB" onClick="clapP()">S - Clap</button>
+            <button id="hihatB" onClick="hihatP()">D - hihat</button>
+            <button id="kickB" onClick="kickP()">F - Kick</button>
+            <button id="openhatB" onClick="openhatP()">G - OpenHat</button>
+            <button id="rideB" onClick="rideP()">H - Ride</button>
+            <button id="snareB" onClick="snareP()">J - Snare</button>
+            <button id="tinkB" onClick="tinkP()">K - Tink</button>
+            <button id="tomB" onClick="tomP()">L - Tom</button>
+        </div>
+
+        <div class=audio>
+            <audio id="boom">
+                <source src="/sounds/boom.wav" type="audio/wav">
+            </audio>
+            <audio id="clap">
+                <source src="/sounds/clap.wav" type="audio/wav">
+            </audio>
+            <audio id="hihat">
+                <source src="/sounds/hihat.wav" type="audio/wav">
+            </audio>
+            <audio id="kick">
+                <source src="/sounds/kick.wav" type="audio/wav">
+            </audio>
+            <audio id="openhat">
+                <source src="/sounds/openhat.wav" type="audio/wav">
+            </audio>
+            <audio id="ride">
+                <source src="/sounds/ride.wav" type="audio/wav">
+            </audio>
+            <audio id="snare">
+                <source src="/sounds/snare.wav" type="audio/wav">
+            </audio>
+            <audio id="tink">
+                <source src="/sounds/tink.wav" type="audio/wav">
+            </audio>
+            <audio id="tom">
+                <source src="/sounds/tom.wav" type="audio/wav">
+            </audio>
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+body {
+    background: #f5f5f5
+}
+
+button {
+    height: 100px;
+    width: 100px;
+}
+
+.content {
+    display: grid;
+    justify-content: center;
+}
+
+.top {
+    display: grid;
+    justify-items: center;
+    margin-bottom: 100px;
+}
